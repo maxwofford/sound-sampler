@@ -1,0 +1,4 @@
+preset-sounds/*
+!preset-sounds/.keep
+tmp-sounds/*
+!tmp-sounds/.keep
