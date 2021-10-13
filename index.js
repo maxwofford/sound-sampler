@@ -18,7 +18,7 @@ app.post('/upload-sound', async (req, res) => {
     status: true,
     message: 'File is uploaded',
     data: {
-      file: 'https://delightfultidypacket.maxwofford.repl.co/' + file.tempFilePath.split('/')[1],
+      filename: file.tempFilePath.split('/')[1],
       mimetype: file.mimetype,
       size: file.size
     }
